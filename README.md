@@ -62,13 +62,16 @@ The **Cab Booking Project** is a full-stack web application that allows users to
 ##  Screenshots
 
 Home Page
+
     <img width="1920" height="976" alt="Screenshot 2025-12-04 142457" src="https://github.com/user-attachments/assets/05ec1137-44ce-431f-8c3d-f9f7f9d4c8c1" />
 
 Booking Page
+
     <img width="1920" height="964" alt="Screenshot 2025-12-04 142625" src="https://github.com/user-attachments/assets/1a10811d-751b-4e4d-89b3-fb92cc0b2881" />
 
 
 Map & Driver Tracking
+
     <img width="1920" height="971" alt="Screenshot 2025-12-04 142729" src="https://github.com/user-attachments/assets/815815fc-03b5-46c0-a348-170649df873d" />
 
 ---
