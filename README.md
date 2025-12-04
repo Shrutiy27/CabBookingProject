@@ -43,19 +43,18 @@ The **Cab Booking Project** is a full-stack web application that allows users to
 ## 🚀 Installation & Setup
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/Shrutiy27/CabBookingProject.git
+   git clone https://github.com/Shrutiy27/CabBookingProject.git
 
-2. **Navigate to the project folder**
+3. **Navigate to the project folder**
     cd CabBookingProject
 
-3. **Install dependencies**
+4. **Install dependencies**
     npm install
 
-4. **Run the development server**
+5. **Run the development server**
     npm run dev
 
-5. **Open in browser**
+6. **Open in browser**
     http://localhost:3000
 
 ---
