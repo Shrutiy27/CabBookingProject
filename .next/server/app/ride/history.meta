@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/ride/layout,_N_T_/ride/history/layout,_N_T_/ride/history/page,_N_T_/ride/history"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/ride/history/__PAGE__",
+    "/ride/history",
+    "/ride",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/rides/accept/route": "/api/rides/accept",
+  "/api/rides/available/route": "/api/rides/available",
+  "/api/rides/estimate/route": "/api/rides/estimate",
+  "/api/rides/request/route": "/api/rides/request",
+  "/driver/dashboard/page": "/driver/dashboard",
+  "/page": "/",
+  "/ride/book/page": "/ride/book",
+  "/ride/history/page": "/ride/history"
+}

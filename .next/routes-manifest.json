@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/rides/accept",
+      "regex": "^/api/rides/accept(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/rides/accept(?:/)?$"
+    },
+    {
+      "page": "/api/rides/available",
+      "regex": "^/api/rides/available(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/rides/available(?:/)?$"
+    },
+    {
+      "page": "/api/rides/estimate",
+      "regex": "^/api/rides/estimate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/rides/estimate(?:/)?$"
+    },
+    {
+      "page": "/api/rides/request",
+      "regex": "^/api/rides/request(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/rides/request(?:/)?$"
+    },
+    {
+      "page": "/driver/dashboard",
+      "regex": "^/driver/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/driver/dashboard(?:/)?$"
+    },
+    {
+      "page": "/ride/book",
+      "regex": "^/ride/book(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ride/book(?:/)?$"
+    },
+    {
+      "page": "/ride/history",
+      "regex": "^/ride/history(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/ride/history(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
